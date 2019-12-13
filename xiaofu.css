@@ -18,7 +18,6 @@ a{
   font-weight: 500;
   transition: all 0.5s;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 .head-jpg{
     opacity: 0.5;
@@ -44,12 +43,12 @@ a{
 	}
 
 
-  #menu{
+  
+#menu{
   margin: 0;
   padding: 0;
   margin-top: 20px;
   text-align: center;
-  margin-bottom: 60px;
 }
 #menu li{
 list-style: none;
@@ -58,24 +57,24 @@ display: inline-block;
 #menu li a{
   text-decoration: none;
   position: relative;
-  color: white;
+  color: #313131;
   font-size: 30px;
   font-weight: 700;
   font-family:sans-serif;
   display: block;
   overflow: hidden;
   transition: 0.7s all;
-  padding: 14px 50px;
+  padding: 14px 30px;
   text-transform: uppercase;
 }
 #menu li a:before{
   content: "";
-  width: 30px;
+  width: 50px;
 
   position: absolute;
-  border-bottom: 8px solid white;
+  border-bottom: 8px solid #313131;
   bottom: 0;
-  right: 350px;
+  right: 200px;
   transition: 0.7s all;
 }
 #menu li a:hover:before{
