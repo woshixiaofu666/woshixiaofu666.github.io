@@ -61,3 +61,13 @@ ul li:nth-child(even) a:hover:before
 {
 	left: 0%;
 }
+.bagumi{
+    color: white
+
+}
+#count{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 50px;
+	
+}
