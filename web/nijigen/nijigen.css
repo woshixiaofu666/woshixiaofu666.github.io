@@ -2,8 +2,10 @@ body{
 	text-align: center;
 }
 p{
+	letter-spacing: 5px;
 	font-size: 50px;
 	text-align: center;
+	padding-left: 100px;
 }
 ul{
 	position: absolute;
