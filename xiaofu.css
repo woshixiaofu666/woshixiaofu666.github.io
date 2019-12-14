@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: #333;
+	background-color:#333;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.btn1 {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  transition: all 0.5s;
+  text-decoration: none;
+  display: inline-block;
+}
+.head-jpg{
+    opacity: 0.5;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+
+
+}
+.head-jpg:hover{
+	opacity: 1.0;
+	width: 350px;
+	height: 350px;
+	transition: 0.5s;
+}
+.head-text{
+	letter-spacing: 2px;
+}
+#xiaofu{
+      font-size: 40px;
+      color: #a40;
+	
+	}
+
+
+  
+#menu{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+#menu li{
+list-style: none;
+display: inline-block;
+}
+#menu li a{
+  text-decoration: none;
+  position: relative;
+  color: #313131;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 14px 30px;
+  text-transform: uppercase;
+}
+#menu li a:before{
+  content: "";
+  width: 50px;
+
+  position: absolute;
+  border-bottom: 8px solid #313131;
+  bottom: 0;
+  right: 200px;
+  transition: 0.7s all;
+}
+#menu li a:hover:before{
+  right: 0;
+}
+.warn{
+  color: red;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-align: center;
+}
+.warn-main{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
