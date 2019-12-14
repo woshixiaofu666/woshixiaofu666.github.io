@@ -81,3 +81,14 @@ display: inline-block;
 #menu li a:hover:before{
   right: 0;
 }
+.warn{
+  color: red;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-align: center;
+}
+.warn-main{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
