@@ -76,3 +76,8 @@ ul li:nth-child(even) a:hover:before
 #count:hover{
 	color: black;
 }
+p .head {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
