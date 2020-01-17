@@ -84,5 +84,10 @@ p .head {
 .text {
 	text-align: center;
 	font-size: 25px;
-	
+
+}
+div .img-ct{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
