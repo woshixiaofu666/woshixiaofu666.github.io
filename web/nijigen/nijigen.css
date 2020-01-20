@@ -8,14 +8,12 @@ p{
 	padding-left: 100px;
 }
 ul{
-	position: absolute;
-	top: 90%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	display: flex;
 	margin: 0;
+	display: flex;
 	padding: 0;
 	border:  1px solid #262626;
+	width: 250px;
+	height: 35px;
 }
 ul li{
 	list-style: none;

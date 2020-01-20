@@ -1,4 +1,22 @@
-body{
-	background: url(https://i.loli.net/2020/01/20/mS76IDrNxTbHtpu.jpg)
-	no-repeat;
+
+body
+ {
+ 	background-image:url(https://i.loli.net/2020/01/20/H1PXmhSxFuDifeO.jpg);
+ 	background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+ }
+
+.big{
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 20px;
+	color: #f40;
+}
+.small{
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 5px;
+	padding: 20px;
+	color: #000;
 }
