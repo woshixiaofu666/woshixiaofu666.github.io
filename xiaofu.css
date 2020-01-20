@@ -2,10 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
+
 }
 a{
   text-decoration: none;
