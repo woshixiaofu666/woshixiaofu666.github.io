@@ -1,1 +1,25 @@
-{\rtf1}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
+}
+big{
+	font-size: 50px;
+	letter-spacing: 5px;
+	color: #ff6b81;
+
+}
+small{
+	font-size: 25px;
+	color: #747d8c;
+}
+web{
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-decoration: none;
+}
