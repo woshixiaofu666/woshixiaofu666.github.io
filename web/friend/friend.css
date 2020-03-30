@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
+}
+#title{
+font-size: 60px;
+color: gold;
+letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.avatar {
+    opacity: 0.6;
+    border-radius: 100%;
+    width: 5em;
+    height: 5em;
+    align-self: center;
+}
+.avatar:hover{
+    width: 7em;
+    height: 7em;
+    transition: 0.5s;
+    opacity: 1.0;
+
+}
+.middle{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.botton
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
