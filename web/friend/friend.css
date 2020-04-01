@@ -5,7 +5,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
+  background-image: url();
+  background-color: black;
 }
 #title{
 font-size: 60px;
@@ -15,19 +16,24 @@ letter-spacing: 3px;
 a{
     text-decoration: none;
     color: #ffffff;
+    display: inline-block;
+    padding: 2.5em;
+   
 }
 .avatar {
     opacity: 0.6;
     border-radius: 100%;
-    width: 5em;
-    height: 5em;
+    width: 8em;
+    height: 8em;
     align-self: center;
+
 }
 .avatar:hover{
-    width: 7em;
-    height: 7em;
+    width: 9em;
+    height: 9em;
     transition: 0.5s;
     opacity: 1.0;
+    
 
 }
 .middle{
@@ -39,7 +45,7 @@ a{
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.botton
+.bottom
 {
     display: block;
     margin-block-start: 1em;
