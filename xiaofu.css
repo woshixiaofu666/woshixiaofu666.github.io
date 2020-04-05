@@ -16,9 +16,15 @@ a{
   padding: 10px 20px;
   font-size: 0.7rem;
   font-weight: 500;
-  transition: all 0.5s;
   text-decoration: none;
   display: inline-block;
+  opacity: 0.5;
+}
+.btn1:hover{
+   opacity: 1;
+   background-color: black;
+   color:white;
+   transition: 0.5s;
 }
 .head-jpg{
     opacity: 0.5;
