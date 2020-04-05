@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	text-align: center;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -12,12 +12,14 @@ body{
 font-size: 60px;
 color: #ff4757;
 letter-spacing: 3px;
+text-align: center;
 }
 a{
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
     padding: 1em;
+    text-align: center;
    
 }
 .avatar {
@@ -26,6 +28,7 @@ a{
     width: 8em;
     height: 8em;
     align-self: center;
+    text-align: center;
 
 }
 .avatar:hover{
@@ -33,6 +36,7 @@ a{
     height: 9em;
     transition: 0.5s;
     opacity: 1.0;
+    text-align: center;
     
 
 }
@@ -44,6 +48,7 @@ a{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align: center;
 }
 .bottom
 {
@@ -52,4 +57,5 @@ a{
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
+    text-align: center;
 }
