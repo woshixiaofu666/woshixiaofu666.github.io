@@ -7,6 +7,7 @@ body{
   background-attachment: fixed;
   /*background-image: url(https://i.loli.net/2020/04/03/j4vd6N5VuMUofYa.jpg);*/
   background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg); /*正常*/
+  -webkit-tap-highlight-color: transparent;
 }
 a{
   text-decoration: none;
@@ -21,8 +22,7 @@ a{
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 30px;
-  -webkit-background-clip:text; 
-  -webkit-text-fill-color:transparent; 
+
 }
 .btn1:hover{
   opacity: 1;
