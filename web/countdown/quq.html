@@ -22,7 +22,7 @@
             }
             function countDown() {
                 var nowtime = new Date();
-                var endtime = new Date("2020/07/18,06:00:00");
+                var endtime = new Date("2020/07/19,06:00:00");
                 var lefttime = parseInt((endtime.getTime() - nowtime.getTime()) / 1000);
                 var d = parseInt(lefttime / (24 * 60 * 60))
                 var h = parseInt(lefttime / (60 * 60) % 24);
@@ -32,7 +32,7 @@
                 h = addZero(h);
                 m = addZero(m);
                 s = addZero(s);
-                document.querySelector(".count").innerHTML = `距离中考还有  ${d}天 ${h} 时 ${m} 分 ${s} 秒`;
+                document.querySelector(".count").innerHTML = `距离中考第二天还有  ${d}天 ${h} 时 ${m} 分 ${s} 秒`;
                 if (lefttime <= 0) {
                     document.querySelector(".count").innerHTML = "中考了！";
                     return;
