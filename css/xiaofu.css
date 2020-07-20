@@ -2,12 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  /*background-image: url(https://i.loli.net/2020/04/03/j4vd6N5VuMUofYa.jpg);*/
-  background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg); /*正常*/
-  -webkit-tap-highlight-color: transparent;
+
 }
 a{
   text-decoration: none;
