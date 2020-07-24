@@ -10,3 +10,4 @@
 |2020/02/16|本人现在对于前端语言只对HTML,CSS有一定了解，对于Javascript一窍不通。||
 |2020/04/15|本人现在对于前端语言只对HTML,CSS有了解，对于Javascript有所了解。||
 |2020/07/18|添加了新的协作者 [Wu Junkai](https://wujunkai2004.github.io)||
+|2020/07/20|为主页添加背景轮播，来自[kkgal](https://www.kkgal.com/)||
