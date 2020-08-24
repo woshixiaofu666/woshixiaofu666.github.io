@@ -8,13 +8,13 @@ body{
   background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
 }
 big{
-	font-size: 50px;
+	font-size: 15em;
 	letter-spacing: 5px;
 	color: #ff6b81;
 
 }
 small{
-	font-size: 25px;
+	font-size: 10em;
 	color: #747d8c;
 }
 web{
