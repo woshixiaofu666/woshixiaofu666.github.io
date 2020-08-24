@@ -95,6 +95,7 @@ display: inline-block;
 #btn1 button:focus{
 	outline:none;
 }
+
 #btn1 button:before{
  content: '';
  display: block;
