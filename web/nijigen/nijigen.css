@@ -46,6 +46,7 @@ p{
 	background: #262626;
 	z-index:  -1;
 	transition:  0.5s;
+	opacity: 0.5;
 
 }
  #btn1 ul li:nth-child(odd) a:before
