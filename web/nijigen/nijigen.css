@@ -120,6 +120,7 @@ display: inline-block;
 	filter: blur(30px);
 	transform: translate(-100px) scale(-15deg);
 }
+
 #btn1 button:hover{
 	background: #338033;
 	cursor: pointer;
