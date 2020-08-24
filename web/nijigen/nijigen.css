@@ -129,4 +129,7 @@ display: inline-block;
 	opacity: .6;
 	transition: .7s;
 }
+#btn1 a {
+	text-decoration: none;
+}
 
