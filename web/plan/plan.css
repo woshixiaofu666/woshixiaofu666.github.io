@@ -8,14 +8,14 @@ body
 
 .big{
 	text-align: center;
-	font-size: 100px;
+	font-size: 75px;
 	letter-spacing: 20px;
 	color: #f40;
 }
 .small{
 	text-align: center;
-	font-size: 50px;
-	letter-spacing: 5px;
-	padding: 20px;
+	font-size: 35px;
+	letter-spacing: 3px;
+	padding: 10px;
 	color: #000;
 }
