@@ -120,7 +120,7 @@ display: inline-block;
   width: 30px;
 
   position: absolute;
-  border-bottom: 8px solid white;
+  border-bottom: 8px solid black;
   bottom: 0;
   right: 350px;
   transition: 0.7s all;
