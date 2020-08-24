@@ -1,0 +1,132 @@
+body{
+	text-align: center;
+}
+p{
+	letter-spacing: 5px;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 100px;
+}
+#count{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 50px;
+	color: white;
+	
+}
+#count:hover{
+	color: black;
+}
+p .head {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+.text {
+	text-align: center;
+	font-size: 25px;
+
+}
+div .img-ct{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#menu li{
+list-style: none;
+display: inline-block;
+}
+#menu li a{
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 14px 50px;
+  text-transform: uppercase;
+}
+#menu li a:before{
+  content: "";
+  width: 30px;
+
+  position: absolute;
+  border-bottom: 8px solid black;
+  bottom: 0;
+  right: 350px;
+  transition: 0.7s all;
+}
+#menu li a:hover:before{
+  right: 0;
+}
+#btn1
+{
+	position: relative;
+	text-align: center;
+	padding-left: 20%;
+}
+#btn1 button{
+
+	transform: translate(-50%, -50%);
+	display: inline-block;
+}
+#btn1 button{
+	background: none;
+	color: #cccccc;
+	width: 20%;
+	height: 5%;
+	border: 1px solid #338033;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+	padding-block: 10%;
+}
+#btn1 button:focus{
+	outline:none;
+}
+#btn1 button:before{
+ content: '';
+ display: block;
+ position: absolute;
+ background: rgba(255, 255, 255, .5);
+ width: 60px;
+ height: 100%;
+ left: 0;
+ top: 0;
+ opacity: .5s;
+ filter: translateX(-130px) skewX(-15deg);
+}
+#btn1 button::after{
+	content: '';
+	display: block;
+	position: absolute;
+	background: rgba(255,255,255,.2);
+	widows: 30px;
+	height: 30px;
+	top:0;
+	left: 30px;
+	opacity: 0;
+	filter: blur(30px);
+	transform: translate(-100px) scale(-15deg);
+}
+#btn1 button:hover{
+	background: #338033;
+	cursor: pointer;
+}
+#btn1 button:hover::before{
+	transform:  translateX(300px) skewX(-15deg);
+	opacity: .6;
+	transition: .7s;
+}
+
