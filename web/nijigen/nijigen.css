@@ -91,7 +91,9 @@ display: inline-block;
 	transition: .6s;
 	overflow: hidden;
 	padding-block: 10%;
+	text-decoration: none;
 }
+
 #btn1 button:focus{
 	outline:none;
 }
