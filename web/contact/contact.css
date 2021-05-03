@@ -7,16 +7,27 @@ body{
   background-attachment: fixed;
   background-image: url(https://i.loli.net/2020/01/20/pl1rt6XkhEjugWI.jpg);
 }
-big{
-	font-size: 15em;
+.big{
+	font-size:70px;
 	letter-spacing: 5px;
 	color: #ff6b81;
 
 }
-small{
-	font-size: 10em;
-	color: #747d8c;
+.small{
+	font-size: 50px;
+	color: red;
+	opacity: 0.68;
 }
+.small:hover
+{
+	font-size: 3.5em;
+	color: #1e90ff;
+
+}
+a{
+	text-decoration: none;
+}
+
 web{
 	text-align: center;
 	font-size: 50px;

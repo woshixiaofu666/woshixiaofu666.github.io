@@ -86,7 +86,7 @@ display: inline-block;
 	width: 20%;
 	height: 5%;
 	border: 1px solid #338033;
-	font-size: 18px;
+	font-size: 1.5em;
 	border-radius: 4px;
 	transition: .6s;
 	overflow: hidden;
@@ -135,5 +135,6 @@ display: inline-block;
 #btn1 a {
 	text-decoration: none;
 	color: #cccccc;
+	
 }
 
